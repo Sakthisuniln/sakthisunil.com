@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>sakthisunil</title>
+        <link rel="stylesheet" href="../style.css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Square+Peg&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <nav class="menu">
+                <a href="https://www.instagram.com/sakthi_sunil/"><img src="../photos/Screenshot (13).png"></a>
+                <div class="nav-links" id="navlinks"> 
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="#about">ABOUT US</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                       <!-- <li><a href="">SKILLS</a></li>
+                        <li><a href="#contact">CONTACT</a></li>-->
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>   
+            </nav>
+            <div class="textbox">
+                 <h1>Hello I'm Sakthi Sunil </h1>
+                 <p>I am  a Frontend Developer and Designer  living in Coimbatore, Tamil Nādu </p>
+                 <a href="../../../personal details/19R245_Sakthisunil2.pdf" download> Download CV </a>
+            </div>
+        </section>
+        <!--About section start-->
+        <section class="about" id="about">
+            <div class="main">
+                <img src="../photos/IMG_20210412_104615-01.jpeg">
+                <div class="about-text">
+                    <h2>About me:</h2>
+                    <p> I was born and grew up in Mettupalayam Tamilnadu, and went to school in Karamadai.
+                        I'm outgoing and tactful. Currently, I'm a Robotics and Automation Engineering 
+                        student (undergraduate) in PSG College of Tech, Coimbatore, Tamil Nadu. </p>
+                        <button type="button" href="sakthisunil2002@gmail.com">DM Me</button>
+                </div>
+            </div>
+        </section>
+        <!--about end-->
+        <!--Services-->
+        <section class="services" id="services">
+            <h1>Services Provide</h1> 
+
+            <div class="row">
+                <div class="course-col">
+                    <img src="../photos/img-1.jpg" alt="">
+                    <img src="../photos/img-7.jpg" alt="">
+                    
+                </div>
+                <div class="course-col">
+                    <h3>WEB PAGE DEVOLAPMENT</h3>
+                    <p> Here we create a Cool and interactive Profile website  
+                        that will be developed for students. It is useful to 
+                        add your website link to your resume. It will improve  
+                        more straight on your resume. 
+                    </p>
+                    <img src="../photos/img-5.jpg" class="hii">
+                        
+                </div>
+                <div class="course-col">
+                    <img src="../photos/img-6.jpg" alt="">
+                    <img src="../photos/img-9.jpg" alt="">
+            </div>
+            
+        </section>
+        <section id="contact">
+           <!-- <div class="container">
+                <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Swing by for a cup of coffee, or leave us a message:</p>
+                </div>
+                <div class="row">
+                  <div class="column">
+                   <!-- <img src="../Resources/My project-1-01.jpeg" style="width:100%">--
+                  </div>
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>-->
+            
+            <div class="icons">
+            <p>You didn't Come this far to Only Come this far</p>
+            <i class="fa fa-facebook"></i>
+            <a href="https://www.instagram.com/sakthi_sunil/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/sakthisuniln/"><i class="fa fa-linkedin"></i></a></div>
+        <div class="end"><p>Made with <i class="fa fa-heart-o"></i> by SAKTHI SUNIL </p>
+        </div></section>
+
+        <!-- javascript-->  
+        <script>
+            var navlinks = document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
